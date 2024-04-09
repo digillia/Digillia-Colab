@@ -1,6 +1,7 @@
 # include all packages installed by default in Google Colab
 matplotlib
 numpy
+opencv-python
 pandas
 Pillow
 pydantic
