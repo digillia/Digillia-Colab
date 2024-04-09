@@ -1,6 +1,12 @@
+# include all packages installed by default in Google Colab
 matplotlib
 numpy
 pandas
 Pillow
+pydantic
+python-dotenv
 scikit-learn
 seaborn
+spacy
+torch
+tqdm

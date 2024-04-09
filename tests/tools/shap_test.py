@@ -1,6 +1,6 @@
 from testbook import testbook
 
-@testbook('./tools/pillow.ipynb', execute=True)
+@testbook('./tools/shap.ipynb', execute=True)
 def test_notebook(nb):
    nb_completion = nb.get('nb_completion')
    ret = nb_completion()
