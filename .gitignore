@@ -1,9 +1,12 @@
 .env
 .DS_Store
+.pytest_cache/
 /algorithms/1704866329413.pdf
 /temp/
 /tools/aws/
 /tools/chroma/
 /tools/coreml/
 /tools/fastapi/
+/tools/pillow/
+/tools/opencv/
 TODO.md
