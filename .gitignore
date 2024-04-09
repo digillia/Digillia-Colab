@@ -2,6 +2,7 @@
 .DS_Store
 .pytest_cache/
 /algorithms/1704866329413.pdf
+/data/MNIST/raw/
 /temp/
 /tools/aws/
 /tools/chroma/
