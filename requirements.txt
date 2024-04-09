@@ -1,5 +1,6 @@
+matplotlib
 numpy
 pandas
-matplotlib
-seaborn
+Pillow
 scikit-learn
+seaborn
