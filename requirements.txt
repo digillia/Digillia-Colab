@@ -16,6 +16,7 @@ seaborn
 spacy
 statsmodels
 tensorflow
+tf-keras # required for transformers
 torch
 torchvision
 tqdm
