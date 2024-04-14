@@ -28,4 +28,4 @@ jobs:
       - name: Test tools
         run: pytest --nbmake -n=auto tools
       - name: Test use cases
-        run: pytest --nbmake -n=auto use_cases        
+        run: pytest --nbmake -n=auto use-cases        
