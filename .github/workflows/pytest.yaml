@@ -23,8 +23,8 @@ jobs:
           python -m pip install --upgrade pip setuptools wheel
           pip install -r requirements.txt
           pip install pytest pytest-xdist nbmake
-      - name: mplcursors
-        run: pip install -U mplcursors
+      - name: mplcursors (otherwise installation from tools/spacy.ipynb fails on Github)
+        run: pip install -U mplcursors # ipympl not required here
       - name: Test algorithms
         run: pytest --nbmake --nbmake-timeout=1000 -n=auto algorithms
       - name: Test tools
