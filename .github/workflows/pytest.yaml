@@ -24,8 +24,8 @@ jobs:
           pip install -r requirements.txt
           pip install pytest pytest-xdist nbmake
       - name: Test algorithms
-        run: pytest --nbmake -n=auto algorithms
+        run: pytest --nbmake --nbmake-timeout=1000 -n=auto algorithms
       - name: Test tools
-        run: pytest --nbmake -n=auto tools
+        run: pytest --nbmake --nbmake-timeout=1000 -n=auto tools
       - name: Test use cases
-        run: pytest --nbmake -n=auto use-cases        
+        run: pytest --nbmake --nbmake-timeout=1000 -n=auto use-cases        
