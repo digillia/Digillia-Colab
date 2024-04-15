@@ -1,5 +1,6 @@
 # include all packages installed by default in Google Colab
 beautifulsoup4
+ipywidgets
 jax[cpu]
 lightgbm[scikit-learn]
 matplotlib
