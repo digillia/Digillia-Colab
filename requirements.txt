@@ -17,7 +17,7 @@ seaborn
 spacy
 statsmodels
 tensorflow
-tf-keras # required for transformers
+tf-keras # v2 is still required for transformers: https://github.com/huggingface/transformers/pull/28588
 torch
 torchvision
 tqdm
