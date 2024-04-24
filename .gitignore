@@ -9,6 +9,7 @@
 /tools/chroma/
 /tools/coreml/
 /tools/fastapi/
-/tools/pillow/
 /tools/opencv/
+/tools/pillow/
+/tools/promptflow/
 TODO.md
