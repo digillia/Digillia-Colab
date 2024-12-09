@@ -1,6 +1,7 @@
 .env
 .DS_Store
 .pytest_cache/
+.venv/
 /algorithms/1704866329413.pdf
 /algorithms/nlp-basics/
 /data/MNIST/raw/
