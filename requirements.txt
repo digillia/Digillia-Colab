@@ -1,3 +1,5 @@
+# additional index for torch cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
 # include all packages installed by default in Google Colab
 beautifulsoup4
 ipywidgets
@@ -18,7 +20,6 @@ spacy
 statsmodels
 tensorflow
 tf-keras # v2 is still required for transformers: https://github.com/huggingface/transformers/pull/28588
---index-url https://download.pytorch.org/whl/cpu
 torch
 torchvision
 tqdm
