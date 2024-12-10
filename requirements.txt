@@ -13,7 +13,7 @@ pandas
 Pillow
 pydantic
 python-dotenv
-scikit-learn
+scikit-learn==1.5.2 # Fix issues with use-cases/regression.ipynb when using v1.6.0
 scipy
 seaborn
 spacy
