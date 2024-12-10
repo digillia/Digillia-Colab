@@ -20,6 +20,7 @@ spacy
 statsmodels
 tensorflow
 tf-keras # v2 is still required for transformers: https://github.com/huggingface/transformers/pull/28588
+tokenizers
 torch
 torchvision
 tqdm
