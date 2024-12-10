@@ -13,14 +13,13 @@ pandas
 Pillow
 pydantic
 python-dotenv
-scikit-learn==1.5.2 # Fix issues with use-cases/regression.ipynb when using v1.6.0
+scikit-learn
 scipy
 seaborn
 spacy
 statsmodels
 tensorflow
 tf-keras # v2 is still required for transformers: https://github.com/huggingface/transformers/pull/28588
-tokenizers
 torch
 torchvision
 tqdm
