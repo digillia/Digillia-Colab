@@ -3,7 +3,7 @@
 # include all packages installed by default in Google Colab
 beautifulsoup4
 ipywidgets
-jax[cpu]
+jax
 lightgbm[scikit-learn]
 matplotlib
 mlxtend
