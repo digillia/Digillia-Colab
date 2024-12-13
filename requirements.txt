@@ -13,7 +13,7 @@ pandas
 Pillow
 pydantic
 python-dotenv
-scikit-learn
+scikit-learn==1.5.2
 scipy
 seaborn
 spacy
