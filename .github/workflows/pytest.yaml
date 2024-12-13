@@ -20,7 +20,9 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11' # Use of gemma in ./tools/gemini.ipynb requires Python 3.10+
+          python-version: '3.10' # Use of gemma in ./tools/gemini.ipynb requires Python 3.10+
+      - name: Reinstall python-decorator # https://stackoverflow.com/questions/50418047/import-error-no-module-named-scipy-lib
+        run: sudo apt install --reinstall python\*-decorator
       - name: Set up Java (required for algorithms/nlp-basics.ipynb)
         uses: actions/setup-java@v4
         with:
