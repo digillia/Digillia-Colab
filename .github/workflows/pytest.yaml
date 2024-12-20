@@ -28,16 +28,14 @@ jobs:
           java-version: '17'
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip # setuptools wheel
-          pip install -r requirements.txt # --use-deprecated=legacy-resolver BEWARE!!!
-          pip install pytest pytest-xdist nbmake
-          # pip install -U scipy
-          # https://stackoverflow.com/questions/50418047/import-error-no-module-named-scipy-lib
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest nbmake # pytest-xdist
       - name: mplcursors (required for tools/spacy.ipynb as installation from notebook fails on Github)
-        run: pip install -U mplcursors # ipympl not required here
+        run: pip install -U mplcursors
       - name: Test algorithms
-        run: pytest --nbmake --nbmake-timeout=1000 -n=auto algorithms
+        run: pytest --nbmake --nbmake-timeout=1000 algorithms # -n=auto algorithms
       - name: Test tools
-        run: pytest --nbmake --nbmake-timeout=1500 -n=auto tools
+        run: pytest --nbmake --nbmake-timeout=1500 tools # -n=auto tools
       - name: Test use cases
-        run: pytest --nbmake --nbmake-timeout=1000 -n=auto use-cases        
+        run: pytest --nbmake --nbmake-timeout=1000 use-cases # -n=auto use-cases        
